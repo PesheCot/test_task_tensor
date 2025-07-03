@@ -21,7 +21,7 @@ def generate_versions(pattern, count=2):
 
 def main():
     if len(sys.argv) != 3:
-        print("Использование: python script.py <версия> <файл_конфига>")
+        print("Использование: python test2.py <версия> <файл_конфига>")
         return
 
     input_version_str = sys.argv[1]
